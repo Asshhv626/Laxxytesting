@@ -1,4 +1,2 @@
 #!/bin/bash
-python bot.py
-python-telegram-bot
-python-gitlab
+pip3 install python-gitlab python-telegram-bot telebot pymongo aiohttp requests && chmod +x laxxyscript.py && python3 laxxyscript.py
